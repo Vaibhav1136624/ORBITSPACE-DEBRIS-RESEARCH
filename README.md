@@ -1,4 +1,6 @@
-# Orbit — Space-Debris Alert Prioritiser
+# ORBITSPACE-DEBRIS-RESEARCH
+
+Orbit — Space-Debris Alert Prioritiser
 
 A research workbench for ranking conjunction reports under limited human-review capacity. Includes encounter-level machine-learning experiments, a persistent replay engine, and a local dashboard.
 

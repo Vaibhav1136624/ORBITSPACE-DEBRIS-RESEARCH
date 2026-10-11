@@ -1,0 +1,11 @@
+# The frontend is plain HTML/CSS/JS. Python runs on a separate backend host.
+[build]
+  base = "app/web"
+  publish = "."
+  command = ""
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
